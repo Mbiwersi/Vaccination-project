@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(12, 216, 243);
+    border-bottom:1px black solid;
+    padding-top: 5px;
+}
+
+nav{
+    margin-left: 5px;
+}
+
+ul.nav{
+    list-style: none;
+    display:inline-block;
+}
+
+nav li.nav-item{
+    display:inline-block;
+    margin: 10px 15px;
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+div.flex-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+div.flex-container div{
+    width: 50%;
+}
+
+
+h1.virus-heading{
+    text-align: center;
+}
+
+
+div.virus-description-container{
+    text-align: center;
+    padding: 5%;
+}
+
+div.symptoms-container{
+    text-align: center;
+}
+
+div.vaccine-types-container{
+    padding-top: 5%;
+    text-align: center;
+}
+
+div.vaccine-types-container h2{
+    font-size: medium;
+    /* outline: 1px red solid; */
+    margin: 1em;
+}
+
+
+div.get-vaccine-container{
+    text-align: center;
+    padding: 5%;
+}
+
+div.not-get-vaccine-container{
+    text-align: center;
+    padding: 5%;
+}
+
+div.side-effects{
+    text-align: center;
+    margin-bottom: 200px;
+    list-style: none;
+}
+
+div.side-effects p{
+    margin: 10px;
+}
+
+div.side-effects h1{
+    text-align: center;
+}
+
+/* E logo */
+a.logo p{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    padding:3px;
+    margin-bottom:10px;
+    background-color: black;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size:1.5em;
+}
+
+a.logo p:hover{
+    background-color: white;
+    color:black;
+}
+
+a.logo-2 p{
+    display: inline-block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+    font-weight:bold;
+}
+
+a:link{
+    text-decoration-line: none;
+    color:black;
+    font-size:large
+}
+
+ul a:visited{
+    text-decoration-line: none;
+    color:black;
+    font-size:large
+}
+
+a.logo-2:visited{
+    text-decoration-line: none;
+    color:black;
+    font-size:large
+}
+
+a li.nav-item:hover{
+    color:white;
+}
+
+footer{
+    position:fixed;
+    bottom:1px;
+    width:100%;
+    border-top:5px black solid;
+    background-color: rgb(12, 216, 243);
+}
+
+div.mission-connection{
+    padding:10px;
+    display:flex;
+    width:100%;
+}
+
+div.mission-container{
+    width:45%;
+    margin-left:10px;
+}
+
+div.connect-container{
+    width:45%;
+    margin-left:50px;
+}
+
+footer div h1{
+    font-size: 20px;
+}
+
+div.connect-container h1{
+    margin-left:8px;
+}
+
+ul.social-media{
+    list-style: none;
+    padding-top:10px;
+}
+
+ul.social-media li{
+    display:inline-block;
+    margin: 0px 8px;
+}
+
+i:hover{
+    color:blue;
+}
+
+
+div.copyright{
+    background-color: black;
+    color:gray;
+    text-align: center;
+    width:100%;
+    padding: 5px;
+}
